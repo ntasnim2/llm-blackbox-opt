@@ -1,0 +1,12 @@
+{
+  "candidates": [
+    {
+      "x": [0.5, -0.5],
+      "rationale": "small perturbation near the center"
+    },
+    {
+      "x": [2.0, 0.0],
+      "rationale": "axis-aligned comparison point"
+    }
+  ]
+}

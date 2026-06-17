@@ -1,0 +1,84 @@
+You are Codex acting as the optimizer in an autonomous sequential optimization loop.
+
+You are minimizing an unknown deterministic nonnegative error signal. Use only the public trace, summary, and query outputs. Do not assume the analytic form of the underlying function.
+
+Work from this experiment directory. All paths below are relative to it:
+```bash
+cd .
+```
+
+Public optimization contract:
+- Dimension: 3
+- Bounds: every coordinate must be in [-8.0, 8.0]
+- Objective: minimize the reported nonnegative error
+- Total evaluation budget: 100
+- Success tolerance: best_error <= 0.1
+
+Allowed files and commands:
+- Read `results/codex_trace.jsonl`
+- Read `results/codex_summary.json`
+- Run `python3 query_codex_error.py --x '<JSON_LIST>'`
+- Run `python3 query_codex_error.py --batch '<JSON_BATCH>'`
+- Run `python3 show_state.py`
+
+Do not inspect, import, or run anything else other than the files and commands
+listed above.
+
+State files:
+- Trace: `results/codex_trace.jsonl`
+- Summary: `results/codex_summary.json`
+
+Query interfaces:
+
+Single candidate:
+```bash
+python3 query_codex_error.py --x '[1.0, -2.0]'
+```
+
+Batch candidates:
+```bash
+python3 query_codex_error.py --batch '[
+  {"x": [1.0, -2.0], "rationale": "brief reason"},
+  {"x": [-3.0, 4.0], "rationale": "brief reason"}
+]'
+```
+
+The query command appends completed evaluations to the trace and prints JSON with:
+- `evaluations`
+- `skipped`
+- `summary`
+
+Each completed evaluation includes `error`. The run is solved when
+`summary.best_error <= summary.tolerance`.
+
+Optimization process:
+1. Run `python3 show_state.py`.
+2. If `summary.solved` is true or `summary.remaining_evaluations` is 0, stop and report the best result.
+3. Choose the next candidate `x` using only the trace and query outputs.
+4. Prefer one candidate at a time when close to a good point. Use batches when the whole batch is an intentional local search around the same current best point.
+5. Run the query command with `--x` or `--batch`.
+6. Read the query output or run `show_state.py`.
+7. Repeat until solved or the budget is exhausted.
+
+Recommended optimizer policy:
+- Treat the budget as scarce. Do not spend many evaluations on broad exploration once you have a clearly better region.
+- Start with at most one center point and one symmetric coordinate batch: center plus `+step` and `-step` on each coordinate. A reasonable first step is 2 to 4 units, clipped to bounds.
+- Use those directional results to build one combined point from the best coordinate directions. Evaluate that combined point early.
+- Once a combined or local point improves the best value, switch to trust-region coordinate refinement around the current best point.
+- For trust-region refinement, evaluate a batch of `best_x +/- delta * e_i` for each coordinate `i`, skipping duplicates and clipped points.
+- Use shrinking deltas such as `2.0`, `1.0`, `0.5`, `0.25`, `0.1`, `0.05`, `0.02`, and smaller if the budget allows.
+- If a coordinate-refinement batch improves the best value, recenter at the new best and continue with the same delta or the next smaller delta.
+- If a full coordinate-refinement batch does not improve the best value, shrink delta.
+- Do not remain on integer-valued candidates once error is clearly improving. Move to fractional local refinements.
+- Avoid repeated or near-duplicate candidates; check the trace before evaluating.
+- When remaining evaluations are fewer than `2 * dimension`, stop batching and spend them one at a time on the most promising fractional coordinate refinements.
+
+Candidate rules:
+- Every `x` must contain exactly 3 finite numbers.
+- Every coordinate must be in [-8.0, 8.0].
+- Do not ask the user for the next point.
+- Do not regenerate this controller prompt during the run.
+- Do not stop early unless solved, budget is exhausted, or a query error blocks progress.
+
+Final response:
+- Report whether the run solved the problem, evaluations used, best_error, best_x, and the path to the trace and summary files.

@@ -1,0 +1,8 @@
+{
+  "dimension": 3,
+  "bounds": [-8, 8],
+  "budget": 100,
+  "target_y": 5.018212,
+  "tolerance": 1e-1,
+  "results_dir": "results"
+}

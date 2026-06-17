@@ -1,0 +1,9 @@
+{
+  "dimension": 3,
+  "bounds": [-8, 8],
+  "budget": 100,
+  "tolerance": 1e-3,
+  "patience": 10,
+  "min_evaluations": 12,
+  "results_dir": "results"
+}
