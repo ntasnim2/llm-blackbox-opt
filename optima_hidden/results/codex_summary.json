@@ -1,0 +1,21 @@
+{
+  "best_x": [
+    3.0,
+    -1.0,
+    2.0
+  ],
+  "bounds": [
+    -8.0,
+    8.0
+  ],
+  "budget": 100,
+  "converged": true,
+  "dimension": 3,
+  "evaluations": 31,
+  "last_improvement": 0.0,
+  "min_evaluations": 12,
+  "patience": 10,
+  "remaining_evaluations": 69,
+  "stagnation_count": 10,
+  "tolerance": 0.001
+}

@@ -1,0 +1,90 @@
+{"candidate_index": 0, "error": 8.918030146668517, "eval_id": 1, "rationale": "initial center point", "x": [0.0, 0.0, 0.0]}
+{"candidate_index": 1, "error": 5.9719475298561395, "eval_id": 2, "rationale": "positive x0 directional probe", "x": [4.0, 0.0, 0.0]}
+{"candidate_index": 2, "error": 13.41736344134919, "eval_id": 3, "rationale": "negative x0 directional probe", "x": [-4.0, 0.0, 0.0]}
+{"candidate_index": 3, "error": 11.986287951499046, "eval_id": 4, "rationale": "positive x1 directional probe", "x": [0.0, 4.0, 0.0]}
+{"candidate_index": 4, "error": 10.544530370687918, "eval_id": 5, "rationale": "negative x1 directional probe", "x": [0.0, -4.0, 0.0]}
+{"candidate_index": 5, "error": 9.365616938305743, "eval_id": 6, "rationale": "positive x2 directional probe", "x": [0.0, 0.0, 4.0]}
+{"candidate_index": 6, "error": 12.517949299298058, "eval_id": 7, "rationale": "negative x2 directional probe", "x": [0.0, 0.0, -4.0]}
+{"candidate_index": 0, "error": 9.32597851908724, "eval_id": 8, "rationale": "", "x": [4.0, -4.0, 4.0]}
+{"candidate_index": 0, "error": 8.07308523486487, "eval_id": 9, "rationale": "trust-region + coordinate 0, delta 2", "x": [6.0, 0.0, 0.0]}
+{"candidate_index": 1, "error": 6.4059949335494295, "eval_id": 10, "rationale": "trust-region - coordinate 0, delta 2", "x": [2.0, 0.0, 0.0]}
+{"candidate_index": 2, "error": 8.280768468999282, "eval_id": 11, "rationale": "trust-region + coordinate 1, delta 2", "x": [4.0, 2.0, 0.0]}
+{"candidate_index": 3, "error": 6.389170819992886, "eval_id": 12, "rationale": "trust-region - coordinate 1, delta 2", "x": [4.0, -2.0, 0.0]}
+{"candidate_index": 4, "error": 4.234958265771786, "eval_id": 13, "rationale": "trust-region + coordinate 2, delta 2", "x": [4.0, 0.0, 2.0]}
+{"candidate_index": 5, "error": 9.01403927621454, "eval_id": 14, "rationale": "trust-region - coordinate 2, delta 2", "x": [4.0, 0.0, -2.0]}
+{"candidate_index": 0, "error": 7.332706048717196, "eval_id": 15, "rationale": "recentered + coordinate 0, delta 2", "x": [6.0, 0.0, 2.0]}
+{"candidate_index": 1, "error": 5.058232288800852, "eval_id": 16, "rationale": "recentered - coordinate 0, delta 2", "x": [2.0, 0.0, 2.0]}
+{"candidate_index": 2, "error": 7.561256611674931, "eval_id": 17, "rationale": "recentered + coordinate 1, delta 2", "x": [4.0, 2.0, 2.0]}
+{"candidate_index": 3, "error": 4.93929304165737, "eval_id": 18, "rationale": "recentered - coordinate 1, delta 2", "x": [4.0, -2.0, 2.0]}
+{"candidate_index": 4, "error": 6.914565197349411, "eval_id": 19, "rationale": "recentered + coordinate 2, delta 2", "x": [4.0, 0.0, 4.0]}
+{"candidate_index": 0, "error": 5.770231366102548, "eval_id": 20, "rationale": "trust-region + coordinate 0, delta 1", "x": [5.0, 0.0, 2.0]}
+{"candidate_index": 1, "error": 3.7507785521761683, "eval_id": 21, "rationale": "trust-region - coordinate 0, delta 1", "x": [3.0, 0.0, 2.0]}
+{"candidate_index": 2, "error": 5.971867747417056, "eval_id": 22, "rationale": "trust-region + coordinate 1, delta 1", "x": [4.0, 1.0, 2.0]}
+{"candidate_index": 3, "error": 3.6356519574597517, "eval_id": 23, "rationale": "trust-region - coordinate 1, delta 1", "x": [4.0, -1.0, 2.0]}
+{"candidate_index": 4, "error": 5.270683068681674, "eval_id": 24, "rationale": "trust-region + coordinate 2, delta 1", "x": [4.0, 0.0, 3.0]}
+{"candidate_index": 5, "error": 4.480372097600574, "eval_id": 25, "rationale": "trust-region - coordinate 2, delta 1", "x": [4.0, 0.0, 1.0]}
+{"candidate_index": 0, "error": 5.519092180022652, "eval_id": 26, "rationale": "recentered + coordinate 0, delta 1", "x": [5.0, -1.0, 2.0]}
+{"candidate_index": 1, "error": 2.876878792817595, "eval_id": 27, "rationale": "recentered - coordinate 0, delta 1", "x": [3.0, -1.0, 2.0]}
+{"candidate_index": 2, "error": 4.96390710011228, "eval_id": 28, "rationale": "recentered + coordinate 2, delta 1", "x": [4.0, -1.0, 3.0]}
+{"candidate_index": 3, "error": 4.005634560074359, "eval_id": 29, "rationale": "recentered - coordinate 2, delta 1", "x": [4.0, -1.0, 1.0]}
+{"candidate_index": 0, "error": 4.7121792256812824, "eval_id": 30, "rationale": "recentered - coordinate 0, delta 1", "x": [2.0, -1.0, 2.0]}
+{"candidate_index": 1, "error": 3.7507785521761683, "eval_id": 31, "rationale": "recentered + coordinate 1, delta 1", "x": [3.0, 0.0, 2.0]}
+{"candidate_index": 2, "error": 4.570833595212925, "eval_id": 32, "rationale": "recentered - coordinate 1, delta 1", "x": [3.0, -2.0, 2.0]}
+{"candidate_index": 3, "error": 4.612757613620806, "eval_id": 33, "rationale": "recentered + coordinate 2, delta 1", "x": [3.0, -1.0, 3.0]}
+{"candidate_index": 4, "error": 3.4673642860383946, "eval_id": 34, "rationale": "recentered - coordinate 2, delta 1", "x": [3.0, -1.0, 1.0]}
+{"candidate_index": 0, "error": 2.584603238336155, "eval_id": 35, "rationale": "trust-region + coordinate 0, delta 0.5", "x": [3.5, -1.0, 2.0]}
+{"candidate_index": 1, "error": 3.5286890197857925, "eval_id": 36, "rationale": "trust-region - coordinate 0, delta 0.5", "x": [2.5, -1.0, 2.0]}
+{"candidate_index": 2, "error": 3.103466715296147, "eval_id": 37, "rationale": "trust-region + coordinate 1, delta 0.5", "x": [3.0, -0.5, 2.0]}
+{"candidate_index": 3, "error": 3.8307453765633372, "eval_id": 38, "rationale": "trust-region - coordinate 1, delta 0.5", "x": [3.0, -1.5, 2.0]}
+{"candidate_index": 4, "error": 3.4803022379301147, "eval_id": 39, "rationale": "trust-region + coordinate 2, delta 0.5", "x": [3.0, -1.0, 2.5]}
+{"candidate_index": 5, "error": 2.516883637322209, "eval_id": 40, "rationale": "trust-region - coordinate 2, delta 0.5", "x": [3.0, -1.0, 1.5]}
+{"candidate_index": 0, "error": 2.156243024665903, "eval_id": 41, "rationale": "recentered + coordinate 0, delta 0.5", "x": [3.5, -1.0, 1.5]}
+{"candidate_index": 1, "error": 3.1854426580259716, "eval_id": 42, "rationale": "recentered - coordinate 0, delta 0.5", "x": [2.5, -1.0, 1.5]}
+{"candidate_index": 2, "error": 2.796093742712509, "eval_id": 43, "rationale": "recentered + coordinate 1, delta 0.5", "x": [3.0, -0.5, 1.5]}
+{"candidate_index": 3, "error": 3.568152350653241, "eval_id": 44, "rationale": "recentered - coordinate 1, delta 0.5", "x": [3.0, -1.5, 1.5]}
+{"candidate_index": 0, "error": 3.3316855610315965, "eval_id": 45, "rationale": "recentered + coordinate 0, delta 0.5", "x": [4.0, -1.0, 1.5]}
+{"candidate_index": 1, "error": 2.503818188231069, "eval_id": 46, "rationale": "recentered + coordinate 1, delta 0.5", "x": [3.5, -0.5, 1.5]}
+{"candidate_index": 2, "error": 3.3319055552390378, "eval_id": 47, "rationale": "recentered - coordinate 1, delta 0.5", "x": [3.5, -1.5, 1.5]}
+{"candidate_index": 3, "error": 3.2311174906241895, "eval_id": 48, "rationale": "recentered - coordinate 2, delta 0.5", "x": [3.5, -1.0, 1.0]}
+{"candidate_index": 0, "error": 3.050014098766834, "eval_id": 49, "rationale": "trust-region + coordinate 0, delta 0.25", "x": [3.75, -1.0, 1.5]}
+{"candidate_index": 1, "error": 1.6785636711824639, "eval_id": 50, "rationale": "trust-region - coordinate 0, delta 0.25", "x": [3.25, -1.0, 1.5]}
+{"candidate_index": 2, "error": 1.671087111757215, "eval_id": 51, "rationale": "trust-region + coordinate 1, delta 0.25", "x": [3.5, -0.75, 1.5]}
+{"candidate_index": 3, "error": 3.053975310390719, "eval_id": 52, "rationale": "trust-region - coordinate 1, delta 0.25", "x": [3.5, -1.25, 1.5]}
+{"candidate_index": 4, "error": 1.7269679827966797, "eval_id": 53, "rationale": "trust-region + coordinate 2, delta 0.25", "x": [3.5, -1.0, 1.75]}
+{"candidate_index": 5, "error": 2.991961622894369, "eval_id": 54, "rationale": "trust-region - coordinate 2, delta 0.25", "x": [3.5, -1.0, 1.25]}
+{"candidate_index": 0, "error": 2.7285912346634262, "eval_id": 55, "rationale": "recentered + coordinate 0, delta 0.25", "x": [3.75, -0.75, 1.5]}
+{"candidate_index": 1, "error": 1.0791056753661659, "eval_id": 56, "rationale": "recentered - coordinate 0, delta 0.25", "x": [3.25, -0.75, 1.5]}
+{"candidate_index": 2, "error": 1.1275099869803746, "eval_id": 57, "rationale": "recentered + coordinate 2, delta 0.25", "x": [3.5, -0.75, 1.75]}
+{"candidate_index": 3, "error": 2.6705387587909577, "eval_id": 58, "rationale": "recentered - coordinate 2, delta 0.25", "x": [3.5, -0.75, 1.25]}
+{"candidate_index": 0, "error": 2.1173430038593706, "eval_id": 59, "rationale": "recentered - coordinate 0, delta 0.25", "x": [3.0, -0.75, 1.5]}
+{"candidate_index": 1, "error": 2.111754114193487, "eval_id": 60, "rationale": "recentered + coordinate 1, delta 0.25", "x": [3.25, -0.5, 1.5]}
+{"candidate_index": 2, "error": 0.32300441361730403, "eval_id": 61, "rationale": "recentered + coordinate 2, delta 0.25", "x": [3.25, -0.75, 1.75]}
+{"candidate_index": 3, "error": 2.298893246551332, "eval_id": 62, "rationale": "recentered - coordinate 2, delta 0.25", "x": [3.25, -0.75, 1.25]}
+{"candidate_index": 0, "error": 1.6932967432123416, "eval_id": 63, "rationale": "recentered - coordinate 0, delta 0.25", "x": [3.0, -0.75, 1.75]}
+{"candidate_index": 1, "error": 1.6877078535464571, "eval_id": 64, "rationale": "recentered + coordinate 1, delta 0.25", "x": [3.25, -0.5, 1.75]}
+{"candidate_index": 2, "error": 1.134986546405627, "eval_id": 65, "rationale": "recentered - coordinate 1, delta 0.25", "x": [3.25, -1.0, 1.75]}
+{"candidate_index": 3, "error": 1.7126120326120784, "eval_id": 66, "rationale": "recentered + coordinate 2, delta 0.25", "x": [3.25, -0.75, 2.0]}
+{"candidate_index": 0, "error": 0.33117935061575654, "eval_id": 67, "rationale": "trust-region + coordinate 0, delta 0.1", "x": [3.35, -0.75, 1.75]}
+{"candidate_index": 1, "error": 0.790860943465109, "eval_id": 68, "rationale": "trust-region - coordinate 0, delta 0.1", "x": [3.15, -0.75, 1.75]}
+{"candidate_index": 2, "error": 0.7881080686599482, "eval_id": 69, "rationale": "trust-region + coordinate 1, delta 0.1", "x": [3.25, -0.65, 1.75]}
+{"candidate_index": 3, "error": 0.3342467080608884, "eval_id": 70, "rationale": "trust-region - coordinate 1, delta 0.1", "x": [3.25, -0.85, 1.75]}
+{"candidate_index": 4, "error": 0.8027075293399202, "eval_id": 71, "rationale": "trust-region + coordinate 2, delta 0.1", "x": [3.25, -0.75, 1.85]}
+{"candidate_index": 5, "error": 0.31449266573012835, "eval_id": 72, "rationale": "trust-region - coordinate 2, delta 0.1", "x": [3.25, -0.75, 1.65]}
+{"candidate_index": 0, "error": 0.32266760272858086, "eval_id": 73, "rationale": "recentered + coordinate 0, delta 0.1", "x": [3.35, -0.75, 1.65]}
+{"candidate_index": 1, "error": 0.7823491955779334, "eval_id": 74, "rationale": "recentered - coordinate 0, delta 0.1", "x": [3.15, -0.75, 1.65]}
+{"candidate_index": 2, "error": 0.7795963207727725, "eval_id": 75, "rationale": "recentered + coordinate 1, delta 0.1", "x": [3.25, -0.65, 1.65]}
+{"candidate_index": 3, "error": 0.32573496017371273, "eval_id": 76, "rationale": "recentered - coordinate 1, delta 0.1", "x": [3.25, -0.85, 1.65]}
+{"candidate_index": 4, "error": 0.777983734950018, "eval_id": 77, "rationale": "recentered - coordinate 2, delta 0.1", "x": [3.25, -0.75, 1.55]}
+{"candidate_index": 0, "error": 0.23958707328412654, "eval_id": 78, "rationale": "fine + coordinate 0, delta 0.05", "x": [3.3, -0.75, 1.65]}
+{"candidate_index": 1, "error": 0.5121269902978725, "eval_id": 79, "rationale": "fine - coordinate 0, delta 0.05", "x": [3.2, -0.75, 1.65]}
+{"candidate_index": 2, "error": 0.5106898077307553, "eval_id": 80, "rationale": "fine + coordinate 1, delta 0.05", "x": [3.25, -0.7, 1.65]}
+{"candidate_index": 3, "error": 0.24110332718310623, "eval_id": 81, "rationale": "fine - coordinate 1, delta 0.05", "x": [3.25, -0.8, 1.65]}
+{"candidate_index": 4, "error": 0.24030426542218297, "eval_id": 82, "rationale": "fine + coordinate 2, delta 0.05", "x": [3.25, -0.75, 1.7]}
+{"candidate_index": 5, "error": 0.510397095555029, "eval_id": 83, "rationale": "fine - coordinate 2, delta 0.05", "x": [3.25, -0.75, 1.6]}
+{"candidate_index": 0, "error": 0.4498091695240847, "eval_id": 84, "rationale": "recentered + coordinate 1, delta 0.05", "x": [3.3, -0.7, 1.65]}
+{"candidate_index": 1, "error": 0.1543692057264927, "eval_id": 85, "rationale": "recentered - coordinate 1, delta 0.05", "x": [3.3, -0.8, 1.65]}
+{"candidate_index": 2, "error": 0.15357014396556945, "eval_id": 86, "rationale": "recentered + coordinate 2, delta 0.05", "x": [3.3, -0.75, 1.7]}
+{"candidate_index": 3, "error": 0.4495164573483592, "eval_id": 87, "rationale": "recentered - coordinate 2, delta 0.05", "x": [3.3, -0.75, 1.6]}
+{"candidate_index": 0, "error": 0.24847920242063104, "eval_id": 88, "rationale": "recentered + coordinate 0, delta 0.05", "x": [3.35, -0.75, 1.7]}
+{"candidate_index": 1, "error": 0.3863630672107714, "eval_id": 89, "rationale": "recentered + coordinate 1, delta 0.05", "x": [3.3, -0.7, 1.7]}
+{"candidate_index": 2, "error": 2.012574116250221e-07, "eval_id": 90, "rationale": "recentered - coordinate 1, delta 0.05", "x": [3.3, -0.8, 1.7]}

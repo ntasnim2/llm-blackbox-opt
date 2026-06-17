@@ -25,7 +25,4 @@ htmlcov/
 .vscode/
 
 # Generated optimization outputs
-results/
 prev_exps/
-unknown_optima/results/
-hide_optima/results/

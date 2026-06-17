@@ -1,0 +1,18 @@
+{
+  "best_error": 2.012574116250221e-07,
+  "best_x": [
+    3.3,
+    -0.8,
+    1.7
+  ],
+  "bounds": [
+    -8.0,
+    8.0
+  ],
+  "budget": 100,
+  "dimension": 3,
+  "evaluations": 90,
+  "remaining_evaluations": 10,
+  "solved": true,
+  "tolerance": 0.1
+}

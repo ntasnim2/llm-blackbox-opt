@@ -1,0 +1,75 @@
+{
+  "absolute_budget_constraint": {
+    "coefficients": [
+      0.8,
+      1.1,
+      0.7,
+      1.0,
+      1.2
+    ],
+    "upper": 22.0
+  },
+  "best_x": [
+    8,
+    0,
+    8,
+    8.0,
+    1.6
+  ],
+  "bounds": [
+    -8.0,
+    8.0
+  ],
+  "budget": 100,
+  "continuous_indices": [
+    3,
+    4
+  ],
+  "continuous_variables": [
+    "x_4",
+    "x_5"
+  ],
+  "converged": true,
+  "dimension": 5,
+  "evaluations": 37,
+  "integer_indices": [
+    0,
+    1,
+    2
+  ],
+  "integer_variables": [
+    "x_1",
+    "x_2",
+    "x_3"
+  ],
+  "last_improvement": 0.0,
+  "linear_constraint": {
+    "coefficients": [
+      1.0,
+      2.0,
+      -1.0,
+      0.5,
+      -1.5
+    ],
+    "lower": -3.0,
+    "upper": 3.0
+  },
+  "min_evaluations": 12,
+  "pairwise_balance_constraint": {
+    "pairs": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "upper": 6.0
+  },
+  "patience": 10,
+  "remaining_evaluations": 63,
+  "stagnation_count": 10,
+  "tolerance": 0.001
+}
