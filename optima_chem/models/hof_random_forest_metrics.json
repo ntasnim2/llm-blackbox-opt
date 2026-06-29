@@ -1,0 +1,29 @@
+{
+  "data": "/Users/tasnim1/research-vs-code/seq_opt_auto/blackbox_codex_auto/optima_chem/10k_data_with_ood_splits.csv",
+  "n_estimators": 500,
+  "n_features": 197,
+  "n_train": 10206,
+  "random_state": 0,
+  "splits": {
+    "iid": {
+      "mae": 5.364213472758946,
+      "n": 423,
+      "r2": 0.9905844754817215,
+      "rmse": 7.72162175215194
+    },
+    "ood": {
+      "mae": 14.379219056826711,
+      "n": 1000,
+      "r2": 0.992271878636019,
+      "rmse": 20.138025740303892
+    },
+    "train": {
+      "mae": 5.549382965554498,
+      "n": 8783,
+      "r2": 0.989118443551959,
+      "rmse": 7.886180978369179
+    }
+  },
+  "target": "hof",
+  "train_scope": "all"
+}

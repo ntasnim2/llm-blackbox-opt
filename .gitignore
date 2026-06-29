@@ -26,3 +26,6 @@ htmlcov/
 
 # Generated optimization outputs
 prev_exps/
+
+# Large local surrogate model artifacts
+optima_chem/models/*.pkl

@@ -1,0 +1,16 @@
+{
+  "target_property": "hof",
+  "target_value": -100.0,
+  "primary_model_path": "models/hof_extratrees_morgan.pkl",
+  "secondary_model_path": "models/hof_random_forest.pkl",
+  "data_path": "10k_data_with_ood_splits.csv",
+  "budget": 100,
+  "tolerance": 5.0,
+  "patience": 10,
+  "min_evaluations": 12,
+  "examples_count": 20,
+  "prompt_exclusion_radius": 25.0,
+  "example_label_precision": 1,
+  "reject_prompt_examples": true,
+  "results_dir": "results"
+}

@@ -1,0 +1,19 @@
+{
+  "best_abs_error": 1.6772325881678398,
+  "best_canonical_smiles": "COC(=O)C1=C(C)NC(=O)NC1c1ccccc1C#N",
+  "best_model_disagreement": 4.7704745455292965,
+  "best_predicted_hof": -101.67723258816784,
+  "best_smiles": "COC(=O)C1=C(C)NC(=O)NC1c1ccccc1C#N",
+  "budget": 100,
+  "converged": true,
+  "evaluations": 9,
+  "last_improvement": 3.8332261436635378,
+  "min_evaluations": 12,
+  "patience": 10,
+  "remaining_evaluations": 91,
+  "solved": true,
+  "stagnation_count": 3,
+  "target_property": "hof",
+  "target_value": -100.0,
+  "tolerance": 5.0
+}
